@@ -1,0 +1,19 @@
+#! /bin/bash -ex
+
+pip3 install virtualenv --user
+python3 -m virtualenv venv
+source venv/bin/activate
+
+sudo apt install libcairo2-dev libfreetype6-dev libfreetype-dev
+
+pip3 install -U Pillow==5.4.1 idna==2.8 requests==2.21.0 urllib3==1.24.1
+pip3 install pycairo
+pip3 install git+https://github.com/googlefonts/gftools
+
+pip3 install fontmake
+
+sudo apt install ttfautohint
+
+sudo apt install sfnt2woff-zopfli
+
+pip3 install fontbakery
