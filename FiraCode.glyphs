@@ -115026,7 +115026,7 @@ instanceInterpolations = {
 "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.22917;
 "B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.77083;
 };
-name = Regular;
+name = Retina;
 },
 {
 customParameters = (
@@ -115046,7 +115046,7 @@ instanceInterpolations = {
 "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.35417;
 "B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.64583;
 };
-name = Retina;
+name = Regular;
 weightClass = Normal;
 },
 {
